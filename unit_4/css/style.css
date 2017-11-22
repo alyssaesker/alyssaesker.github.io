@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lato:900');
+body{
+	background-color: gray;
+}
+h1, p{ 
+	color: white;
+}
+h1{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 33px;	
+}
+#slogan{
+	font-family: 'Indie Flower', cursive;
+	font-style:bold;
+	font-size: 28px;
+	text-align: center;
+}
+img{
+	float: left;
+}
+#contact{
+	text-align: center;
+	font-size: 22px;
+}
