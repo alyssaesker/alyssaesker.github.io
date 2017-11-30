@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lato:900');
+body{
+	background-color: gray;
+}
+header,h1	{
+	background: white;
+	color: gray;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 36px;
+	border: 3px black solid;
+	padding: 20px;
+}
+h2{
+	font-size: 1.5em
+}
+#slogan{
+	font-family: 'Indie Flower', cursive;
+	font-style: bold;
+	font-size: 30px;
+	text-align: center;
+	color: gray;
+}
+#intro{
+	text-align: center;
+	font-size: 14px
+	font-style: bold;
+}
+img{
+	float: left;
+	border: 2px black solid;
+}
+footer{
+	text-align: center;
+	font-size: 22px;
+}
+#season{ 
+	background: #00CCCC;
+}
+#accessories{
+	background: #42c8f4;
+}
+#sizing{
+	background: #42a4f4;
+}
+#blog{
+	background: #4e7596;
+}
