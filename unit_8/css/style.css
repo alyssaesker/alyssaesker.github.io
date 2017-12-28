@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lato:900');
+body{
+	background-color: gray;
+}
+header,h1	{
+	background: white;
+	color: gray;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 36px;
+	border: 3px black solid;
+}
+nav {
+	display: block;
+	color: white;
+	float: left;
+	font-size: 14px;
+	background-color: #00008b
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  display: inline-block;
+}
+a {
+	background-color: #00008b;
+	color: white;
+	text-decoration: none;
+	float: left;
+	padding: 20px;
+}
+.clearfixafter {
+	visibility: hidden;
+	display: block;
+}
+a:hover {
+	background-color: #aaaaaa;
+
+}
+h2{
+	font-size: 1.5em
+}
+#slogan{
+	font-family: 'Indie Flower', cursive;
+	font-style: bold;
+	font-size: 30px;
+	text-align: center;
+	color: gray;
+}
+
+img	{
+	width: 100%;
+	border: 2px black solid;
+	clear: both;
+	float: left;
+	padding: 0;
+}
+
+#bishop {
+	height: 10%;
+}
+
+#intro{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-style: bold;
+	clear: both;
+	background: #ffffff;
+	color: gray;
+}
+
+ul {
+	list-style: none;
+}
+li {
+	float: left;
+	width: 50%;
+	height: 13.5em;
+	outline: 3px solid #222;
+	text-align: center;
+	line-height: 12em;
+}
+#services {
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+#season {
+	background: #00CCCC;
+}
+#accessories {
+	background: #42c8f4;
+}
+
+#sizing {
+	background: #42a4f4;
+}
+#blog {
+	background: #4e7596;
+}
+
+footer{
+	text-align: center;
+	font-size: 22px;
+	clear: both;
+	padding: 20px;
+	font-style: bold;
+}
+
+@media only screen and (max-width: 592px) {
+	li {
+		height: 7.5em;
+		outline: 1px solid #222;
+		line-height: 6em;
+		font-size: .75em;
+	}
+  
+  	nav a {
+    margin: 0;
+  }
+
+@media only screen and (max-width: 480px) {
+	nav {
+		float: none;
+		font-size: .75em;
+	}
+	nav a {
+		float: none;
+	}
+	#services {
+		float: none;
+		font-size: .8em;
+		text-align: center;
+
+	}
+	li {
+		float: none;
+	}
+}
